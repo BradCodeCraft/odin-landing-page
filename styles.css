@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.section-one-container,
+.footer {
+  padding: 0 150px;
+  background-color: #1f2937;
+}
+
+.section-one-container {
+  padding-bottom: 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-links>ul {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+}
+
+.header-links>ul>li>a,
+.section-one-left-content-container>p {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.section-one-content {
+  padding: 48px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-one-left-content-container {
+  flex-basis: 450px;
+}
+
+.section-one-left-content-container>h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.section-one-left-content-container>button {
+  margin-top: 8px;
+  border: none;
+}
+
+.section-one-right-content-container {
+  background-color: #6d747e;
+  color: #e5e7ebeb;
+  flex-basis: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-two-container {
+  padding: 0 150px;
+  padding-top: 24px;
+  padding-bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-two-container>h1 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.section-two-cards-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 24px;
+}
+
+.card {
+  flex-basis: 150px;
+}
+
+.card-outline {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882f6;
+  border-radius: 24px;
+  margin-bottom: 8px;
+}
+
+.card>p {
+  text-align: center;
+}
+
+.section-three-container {
+  background-color: #e5e7eb;
+  padding: 0 250px;
+  padding-top: 80px;
+  padding-bottom: 56px;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.author {
+  text-align: right;
+  font-weight: 800;
+  padding-right: 16px;
+}
+
+.section-four-container {
+  padding: 72px 150px;
+}
+
+.section-four-content-container {
+  box-sizing: border-box;
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-four-right-content-container>button {
+  border: 1px solid #e5e7eb;
+}
+
+.footer {
+  color: #e5e7eb;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
